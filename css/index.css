@@ -27,15 +27,17 @@
 }
 
 .hero-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 696px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-hero {
     display: inline-block;
+    width: 696px;
     color: var(--text-white);
     font-weight: 900;
     font-size: 44px;
@@ -295,8 +297,15 @@
 
 /*2.ADVANTAGES section effects */
 
-.advantages-container {
+.section {
     padding-top: 94px;
+    padding-bottom: 94px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.advantages-section {
+    padding-bottom: 0;
 }
 
 .advantages-icon-container {
@@ -352,14 +361,6 @@
 }
 
 /* 3.FEATURES section effects */
-
-.features-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .ul-features {
     display: flex;
     flex-direction: row;
@@ -396,11 +397,6 @@
 }
 
 /* 4.STAFF section effects */
-
-.staff-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .our-staff {
     background-color: var(--background-grey);
@@ -481,12 +477,6 @@
 }
 
 /* 5.CLIENTS section effects */
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .clients-link:hover,
 .clients-link:focus {
     color: var(--accent-color);
