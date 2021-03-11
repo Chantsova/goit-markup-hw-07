@@ -1,0 +1,53 @@
+/* Colors */
+$btnShadow: rgba(0, 0, 0, 0.15);
+$backdropColor: rgba(0, 0, 0, 0.2);
+$elementBlack: rgba(0, 0, 0, 1);
+$elementDarkGrey03: rgba(33, 33, 33, 0.2);
+$textDarkGrey: rgba(33, 33, 33, 1);
+$backgroundFeatures: rgba(47, 48, 58, 0.8);
+$backgroundSection: rgba(47, 48, 58, 1);
+$iconGrey: rgba(175, 177, 184, 1);
+$textGrey05: rgba(117, 117, 117, 0.5);
+$textGrey: rgba(117, 117, 117, 1);
+$headerBorderGrey: rgba(236, 236, 236, 1);
+$borderGrey: rgba(238, 238, 238, 1);
+$backgroundGrey: rgba(245, 244, 250, 1);
+$circleIconColor: rgba(255, 255, 255, 0.1);
+$textWhite03: rgba(255, 255, 255, 0.3);
+$textWhite06: rgba(255, 255, 255, 0.6);
+$textWhite: rgba(255, 255, 255, 1);
+$elementWhite: rgba(255, 255, 255, 1);
+$backgroundOverlay: rgba(33, 150, 243, 0.9);
+$accentColor: rgba(33, 150, 243, 1);
+
+/*Cards*/
+$cardSetGap: 30px;
+
+/*Paddings*/
+$sectionsPadding: 94px;
+
+/*Margins*/
+$centerMargin: 0 auto;
+$beetweenItemsMargin10: 10px;
+$beetwenItemsMargin30: 30px;
+
+/*Dimensions*/
+$containerWidth: 1200px;
+$heroWidth: 1600px;
+
+/*Transitions*/
+$transitionCommon: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+/*Font-Sizes*/
+$standartFontSize: 14px;
+$middleFontSize: 16px;
+$logoFontSize: 26px;
+$sectionsTitleFontSize: 36px;
+$mainTitleFontSize: 44px;
+
+/*Border-radius*/
+$inputBtnsBorderRadius: 4px;
+$checkboxBorderRadius: 2px;
+
+/*Shadows*/
+$btnShadows: 0px 4px 4px $btnShadow;
