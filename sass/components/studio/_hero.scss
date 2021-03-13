@@ -1,0 +1,36 @@
+.hero {
+    max-width: $heroWidth;
+    height: 600px;
+    margin: $centerMargin;
+    // margin-right: auto;
+    // margin-left: auto;
+    background-color: $backgroundSection;
+    background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url('../images/hero-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    .hero__container {
+        @extend %flex-center;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+    }
+
+    .hero__title {
+        display: inline-block;
+        width: 696px;
+        font-weight: 900;
+        font-size: $mainTitleFontSize;
+        line-height: 1.364;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $textWhite;
+    }

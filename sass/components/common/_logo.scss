@@ -4,13 +4,13 @@
     font-size: $logoFontSize;
     line-height: 1.174;
     letter-spacing: 0.03em;
-    color: $accent-color;
-}
+    color: $accentColor;
 
-.logo--secondpartheader {
-    color: $element-black;
-}
+    &--secondpartheader {
+        color: $elementBlack;
+    }
 
-.logo--secondpartfooter {
-    color: $element-white;
+    &--secondpartfooter {
+        color: $elementWhite;
+    }
 }
