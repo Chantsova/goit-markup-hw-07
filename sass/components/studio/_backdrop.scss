@@ -9,14 +9,13 @@
     background-color: $backdropColor;
     opacity: 1;
 
-&.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
+    &.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
 
-&.is-hidden .modal {
-    transform: translate(-50%, -50%), scale(0.9);
+    &.is-hidden .modal {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
 }
-}
-
